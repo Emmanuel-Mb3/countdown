@@ -1,0 +1,38 @@
+body {
+  font-family: Calibri;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+}
+
+* input[type="number"]{
+    color: #000;
+}
+
+input.inp, button.btn {
+  font-size: 1.3em;
+  border: 1px solid #b7b7b7;
+  padding: .4rem .8rem;
+}
+
+button.btn {
+    color: white;
+    cursor: pointer;
+}
+
+button.btn[disabled] {
+    background-color: #c3c3c3 !important;
+}
+
+button#btn-start {
+    background-color: green;
+}
+
+button#btn-reset {
+    background-color: red;
+}
+
+#remaining-time {
+    padding: 1rem 2rem;
+    font-size: 1.6em;
+    font-weight: bold;
+}
